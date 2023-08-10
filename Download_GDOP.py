@@ -45,9 +45,7 @@ print("OK!")
 
 driver.execute_script("document.getElementsByClassName(\"col-sm-11\")[0].getElementsByTagName(\"button\")[0].click()")
 driver.get(url2)
-t.sleep(10)
 # WebDriverWait(driver,10,0.5).until(EC.alert_is_present())
-
 pars="<svg.*>.*</svg>"
 while(1):
     innerHTML = driver.execute_script("return document.body.innerHTML")
@@ -83,4 +81,4 @@ value=[cal_value(i) for i in data[:,1]]
 dataset=pd.DataFrame({"time":pd.date_range("2023-08-02",periods=len(value),freq="10min"),
                       "GDOP":value})
 
-
+dataset.to_csv("2023-08-02_GDOP.csv")
