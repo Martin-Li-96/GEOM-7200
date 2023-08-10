@@ -8,5 +8,5 @@ You just simply download the csv file to do analyse. If you want to use the Pyth
 - Finally the script will download the data and save the data to a csv file.
 **(Note)**
   Because this script is use a proxy ip from google, sometimes it will not working. You can easily get a new proxy ip from google and update the
-  proxy ip in the script.
-If you meet any troubles or bugs, feel free to make comments.
+  proxy ip in the script. If the script is faild, just try more times. Good Luck!
+If you meet any troubles or bugs, feel free to make comments. 
