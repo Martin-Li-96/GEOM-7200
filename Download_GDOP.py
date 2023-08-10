@@ -80,3 +80,4 @@ dataset=pd.DataFrame({"time":pd.date_range("2023-08-02",periods=len(value),freq=
                       "GDOP":value})
 
 
+dataset.to_csv("2023-08-02_GDOP.csv")
