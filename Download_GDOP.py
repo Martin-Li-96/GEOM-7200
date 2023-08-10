@@ -24,7 +24,7 @@ chrome_options.add_argument('--proxy-server=%s'%proxy)
 driver.get(url1)
 
 driver.find_element(By.ID,"inputLatitude").clear()
-driver.find_element(By.ID,"inputLatitude").send_keys("S 27° 29' 56.6876\"")
+driver.find_element(By.ID,"inputLatitude").send_keys("S 27° 29' 50.705\"")
 driver.find_element(By.ID,"inputLongitude").clear()
 driver.find_element(By.ID,"inputLongitude").send_keys("E 153° 0' 47.4104\"")
 driver.find_element(By.ID,"inputHeight").clear()
