@@ -36,7 +36,7 @@ driver.find_element(By.ID,"inputShadow").send_keys("10")
 while(1):
     time = driver.execute_script("return document.getElementById(\"inputDay\").value")
     time_zone = driver.execute_script("return document.querySelector(\"#inputTimezone\").value")
-    if (time=="2023-08-03"):
+    if (time=="2023-08-02"):
         if(time_zone=="number:119"):
             break
 
